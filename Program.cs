@@ -12,7 +12,9 @@ namespace BinarySearchPractice_Video15
             Q1CeilingOfANumber q1 = new Q1CeilingOfANumber();
             Q2FloorOfANumber q2 = new Q2FloorOfANumber();
             Q3SmallestLetter q3 = new Q3SmallestLetter();
-            q3.Q3SmallestLetterGreaterThanTarget();
+            //q3.Q3SmallestLetterGreaterThanTarget();
+            Q4FirstLastPosInSortedArr  q4= new Q4FirstLastPosInSortedArr();
+            q4.FirstLastPositionSortedArray();
             //string cond = "";
             //while (cond != "n")
             //{

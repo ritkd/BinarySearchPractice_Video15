@@ -31,7 +31,19 @@ namespace BinarySearchPractice_Video15
                     return arr1[mid];
                 }
             }
-            
+
+            string cond = "";
+            while (cond != "n")
+            {
+                Console.Write("Enter Input for ceiling question:");
+                string input = Console.ReadLine();
+                int inp = Convert.ToInt32(input);
+                int res = GetCeilingOfNumber(arr1, inp);
+                Console.WriteLine("Ceiling of the number {0} is {1}", input, res);
+                Console.Write("Wanna try again(y/n): ");
+                cond = Console.ReadLine();
+            }
+
             return arr1[start];
         }
     }
